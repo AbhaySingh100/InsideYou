@@ -18,10 +18,11 @@
       android:layout_marginLeft="50dp"
       android:layout_marginRight="50dp"
       android:id="@+id/l"
+
       >
       <ImageView
-          android:layout_width="100dp"
-          android:layout_height="100dp"
+          android:layout_width="90dp"
+          android:layout_height="90dp"
           android:src="@drawable/iylogo"
 
           >
@@ -36,7 +37,7 @@
           android:textSize="30sp"
           android:textStyle="bold"
           android:text="Let's"
-          android:layout_marginTop="10dp"
+
           >
 
 
@@ -50,7 +51,7 @@
           android:textSize="30sp"
           android:textStyle="bold"
           android:text="get started"
-          android:layout_marginTop="7dp"
+
           >
 
 
@@ -61,7 +62,7 @@
                android:textSize="16sp"
                android:hint="Username"
                android:background="@drawable/bacground"
-               android:layout_marginTop="20dp"
+               android:layout_marginTop="15dp"
                android:gravity="center_vertical"
                android:paddingLeft="20dp"
                android:id="@+id/name"
@@ -76,7 +77,7 @@
           android:textSize="16sp"
           android:hint="E-mail"
           android:background="@drawable/bacground"
-          android:layout_marginTop="20dp"
+          android:layout_marginTop="15dp"
           android:gravity="center_vertical"
           android:paddingLeft="20dp"
           android:id="@+id/mail"
@@ -90,7 +91,7 @@
           android:textSize="16sp"
           android:hint="Enter password"
           android:background="@drawable/bacground"
-          android:layout_marginTop="20dp"
+          android:layout_marginTop="15dp"
           android:gravity="center_vertical"
           android:paddingLeft="20dp"
           android:id="@+id/password"
@@ -104,7 +105,7 @@
           android:textSize="16sp"
           android:hint="Confirm password"
           android:background="@drawable/bacground"
-          android:layout_marginTop="20dp"
+          android:layout_marginTop="15dp"
           android:gravity="center_vertical"
           android:paddingLeft="20dp"
           android:id="@+id/cpassword"
@@ -118,7 +119,7 @@
           android:text="Sign up"
           android:textSize="20sp"
           android:textColor="#FFFFFF"
-          android:layout_marginTop="25dp"
+          android:layout_marginTop="20dp"
           android:background="@drawable/btnback"
           android:layout_marginRight="40dp"
           android:layout_marginLeft="40dp"
@@ -134,21 +135,20 @@
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal"
-        android:layout_marginBottom="30dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp"
-        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"
 
         >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:text="Already have an account?"
             android:layout_weight="1"
-            android:gravity="center_horizontal"
-
-
+            android:gravity="center"
+            android:paddingLeft="20dp"
 
             >
 
@@ -159,7 +159,7 @@
             android:textSize="18sp"
             android:text="Sign in"
             android:layout_weight="2"
-            android:gravity="start"
+            android:gravity="center_vertical"
             android:textColor="#733abb"
 
             >
